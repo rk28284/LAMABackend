@@ -23,7 +23,7 @@ const projectFileSchema = new mongoose.Schema(
 
 const ProjectFileModel = mongoose.model("ProjectFile", projectFileSchema);
 
-module.exports=ProjectFileModel
+module.exports={ProjectFileModel}
 
 // {
 //   "fileName": "Sample File",
